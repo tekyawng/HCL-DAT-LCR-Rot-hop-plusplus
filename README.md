@@ -25,6 +25,8 @@
 
 ### 2. Download the zip folder, extract it and navigate to the project folder:
 
+- Navigate to the folder
+
   ```bash
   cd repo-name
   ```
