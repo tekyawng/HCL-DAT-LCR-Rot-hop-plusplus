@@ -28,7 +28,7 @@
 - Navigate to the folder
 
   ```bash
-  cd repo-name
+  cd repo_folder_path
   ```
 
 ### 3. Install Required Packages:
