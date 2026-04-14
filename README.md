@@ -50,9 +50,7 @@
 
 5. **Adjust discriminator structure**: `nn_layer.py` can be used to change the structure of the discriminators and refinment FFNs.
 
-6. **Adjust the number of HCL iterations**: In  `HCL_DAT_LCR_Rot_hop.py`, the number of HCL iterations can be changed. `hierarchical_iterations=1` corresponds to the model from Verschoor (2025). `hierarchical_iterations=2` and `hierarchical_iterations=3` corresponds to the extension in our work. 
-
-7. **Run the model**: Fill `main_test.py` with the hyperparameters of choice and run the model for a given amount of epochs. Results will be stored in Result_Files, including runtime, accuracy per sentiment polarity, train accuracy and general (maximum) test accuracy. Uncomment the models you want to train and test to obtain results, using the according hyperparameters.
+6. **Run the model**: Fill `main_test.py` with the hyperparameters of choice and run the model for a given amount of epochs. Results will be stored in Result_Files, including runtime, accuracy per sentiment polarity, train accuracy and general (maximum) test accuracy. t-SNE plots will be stored in the t-SNE folder. Uncomment the models you want to train and test to obtain results, using the according hyperparameters.
 
 **In case you have any questions regarding the use of the code, do not hesitate to contact me via 617509tn@student.eur.nl
 
