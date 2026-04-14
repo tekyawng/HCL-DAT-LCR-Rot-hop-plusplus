@@ -52,7 +52,7 @@
 
 6. **Run the model**: Fill `main_test.py` with the hyperparameters of choice and run the model for a given amount of epochs. Results will be stored in Result_Files, including runtime, accuracy per sentiment polarity, train accuracy and general (maximum) test accuracy. t-SNE plots will be stored in the t-SNE folder. Uncomment the models you want to train and test to obtain results, using the according hyperparameters.
 
-**In case you have any questions regarding the use of the code, do not hesitate to contact me via 617509tn@student.eur.nl
+**In case you have any questions regarding the use of the code, do not hesitate to contact me via 617509tn@student.eur.nl**
 
 ## References
 
