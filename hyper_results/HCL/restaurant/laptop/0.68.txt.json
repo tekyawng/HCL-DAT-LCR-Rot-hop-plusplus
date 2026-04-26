@@ -1,0 +1,12 @@
+{
+    "loss": -0.68,
+    "space": {
+        "hcl_betas": [
+            0.9,
+            0.1
+        ],
+        "hcl_config_idx": 10,
+        "hcl_m": 2
+    },
+    "status": "ok"
+}
