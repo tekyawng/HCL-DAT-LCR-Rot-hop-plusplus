@@ -1,0 +1,16 @@
+book to restaurant | HCL m=1 betas=[1.0]
+---
+Train data source. Positive: 696, Neutral: 1705, Negative: 299, Total: 2700
+Train data target. Positive: 2164, Neutral: 633, Negative: 805, Total: 3602
+Test data. Positive: 728, Neutral: 196, Negative: 196, Total: 1120
+---
+HCL-DAT-LCR-Rot-hop++ (m=1). Train accuracy: 0.773704, Test accuracy: 0.391071
+Maximum. Test accuracy: 0.417857
+---
+Test results.
+Positive. Correct: 224, Incorrect: 504, Total: 728
+Neutral. Correct: 195, Incorrect: 1, Total: 196
+Negative. Correct: 19, Incorrect: 177, Total: 196
+---
+Runtime: 8707.37 seconds.
+

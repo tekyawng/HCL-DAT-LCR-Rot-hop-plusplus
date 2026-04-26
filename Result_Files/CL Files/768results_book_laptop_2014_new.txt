@@ -1,0 +1,16 @@
+book to laptop | HCL m=1 betas=[1.0]
+---
+Train data source. Positive: 696, Neutral: 1705, Negative: 299, Total: 2700
+Train data target. Positive: 961, Neutral: 445, Negative: 844, Total: 2250
+Test data. Positive: 367, Neutral: 184, Negative: 150, Total: 701
+---
+HCL-DAT-LCR-Rot-hop++ (m=1). Train accuracy: 0.804074, Test accuracy: 0.540656
+Maximum. Test accuracy: 0.562054
+---
+Test results.
+Positive. Correct: 226, Incorrect: 141, Total: 367
+Neutral. Correct: 150, Incorrect: 34, Total: 184
+Negative. Correct: 3, Incorrect: 147, Total: 150
+---
+Runtime: 8397.35 seconds.
+
