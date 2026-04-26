@@ -42,7 +42,7 @@
 ## Using and Running Code
 1. **Generate Raw Data**: Run `raw_data.py` to obtain the raw data for your required domains (restaurant, laptop, and book).
 
-2. **(Optional) Get BERT embeddings**: The BERT embeddings have been pushed to this repository and therefore need not be generated again, but if you deem to generate them: Run `bert_prepare.py` to obtain the raw data for your required domains (restaurant, laptop, and book). Place the files in the embedding directories, and rename them if necessary.
+2. **Get BERT embeddings**: Run `bert_prepare.py` to obtain the raw data for your required domains (restaurant, laptop, and book). Place the files in the embedding directories, and rename them if necessary.
 
 3. **Tune hyperparameters**: Run `main_hyper.py` to find the optimal hyperparameter settings for the HCL weights. The number of configurations and iterations can be changed here. `main_test.py` already contains the optimal hyperparameters for the all models as presented in the paper from Veschoor (2025). 
 
